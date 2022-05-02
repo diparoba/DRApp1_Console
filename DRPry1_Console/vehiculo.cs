@@ -8,10 +8,13 @@ namespace DRPry1_Console
 {
     internal class vehiculo
     {
-        private String marca { get; set; }
-        private String modelo { get; set; }
-        private String color { get; set; }
-
+        public int codigo { get; set; }
+        public String placa { get; set; }
+        public String marca { get; set; }
+        public String modelo { get; set; }
+        public String color { get; set; }
+        public String motor { get; set; }
+        public String estado { get; set; }
         public vehiculo()
         {
 

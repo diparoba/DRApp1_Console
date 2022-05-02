@@ -1,0 +1,8 @@
+C:\GitProjects\DRApp1_Console\DRPry1_Console\bin\Debug\DRPry1_Console.exe.config
+C:\GitProjects\DRApp1_Console\DRPry1_Console\bin\Debug\DRPry1_Console.exe
+C:\GitProjects\DRApp1_Console\DRPry1_Console\bin\Debug\DRPry1_Console.pdb
+C:\GitProjects\DRApp1_Console\DRPry1_Console\obj\Debug\DRPry1_Console.csproj.AssemblyReference.cache
+C:\GitProjects\DRApp1_Console\DRPry1_Console\obj\Debug\DRPry1_Console.csproj.SuggestedBindingRedirects.cache
+C:\GitProjects\DRApp1_Console\DRPry1_Console\obj\Debug\DRPry1_Console.csproj.CoreCompileInputs.cache
+C:\GitProjects\DRApp1_Console\DRPry1_Console\obj\Debug\DRPry1_Console.exe
+C:\GitProjects\DRApp1_Console\DRPry1_Console\obj\Debug\DRPry1_Console.pdb
