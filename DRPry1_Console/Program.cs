@@ -27,7 +27,7 @@ namespace DRPry1_Console
                 vehiculos.Add(vehiculo1);
             vehiculos.Add(vehiculo2);
 
-            var listadoFiltro = vehiculos.Where(data => data.estado.Equals("A") && data.codigo.Equals("A"));
+            var listadoFiltro = vehiculos.Where(data => data.estado.Equals("A"));
             foreach(vehiculo itemVehiculo in listadoFiltro)
             {
                 Console.WriteLine("Codigo: " + itemVehiculo.codigo);
