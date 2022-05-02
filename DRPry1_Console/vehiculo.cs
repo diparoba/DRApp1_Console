@@ -15,9 +15,14 @@ namespace DRPry1_Console
         public String color { get; set; }
         public String motor { get; set; }
         public String estado { get; set; }
-        public vehiculo()
+        public vehiculo(int Codigo, string Placa, string Modelo, string Color, string Motor, string Estado)
         {
-
+            codigo = Codigo;
+            placa = Placa;
+            modelo = Modelo;
+            color = Color;
+            motor = Motor;
+            estado = Estado;
         }
         
     }
