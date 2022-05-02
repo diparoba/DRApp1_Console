@@ -16,25 +16,25 @@ namespace DRPry1_Console
             vehiculo1.placa = "tbc1244";
             vehiculo1.marca = "toyota";
             vehiculo1.motor = "5.2";
-            vehiculo1.estado = "A"
+            vehiculo1.estado = "A";
             vehiculo vehiculo2 = new vehiculo();
             vehiculo2.codigo = 2;
             vehiculo2.placa = "tbc1314";
             vehiculo2.marca = "mercedes";
             vehiculo2.motor = "5.3";
-            vehiculo2.estado = "A"
+            vehiculo2.estado = "A";
             
                 vehiculos.Add(vehiculo1);
             vehiculos.Add(vehiculo2);
 
-            var listadoFiltro = vehiculos.Where(data => data.estado.Equals("A")) && data.codigo.Equals(1));
+            var listadoFiltro = vehiculos.Where(data => data.estado.Equals("A") && data.codigo.Equals("A"));
             foreach(vehiculo itemVehiculo in listadoFiltro)
             {
                 Console.WriteLine("Codigo: " + itemVehiculo.codigo);
                 Console.WriteLine(itemVehiculo.placa);
                 Console.WriteLine(itemVehiculo.marca);  
                 Console.WriteLine(itemVehiculo.motor);
-                    Console.WriteLine(itemVehiculo.estado);
+                Console.WriteLine(itemVehiculo.estado);
             }
             Console.ReadLine();
                 }
